@@ -1,0 +1,35 @@
+.Input {
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+  
+    font-weight: bold;
+    line-height: 18px;
+    margin-bottom: 16px;
+  
+    label {
+      font-size: 12px;
+    }
+  
+    input {
+      width: 100%;
+      font-size: 11px;
+      background-color: #F3F3F3;
+      color: #CC9696;
+      border-radius: 15px;
+      padding: 16px 13px;
+      border: none;
+      outline: none;
+  
+      &::placeholder {
+        color: #CC9696;
+      }
+    }
+  
+    &__error {
+      font-weight: normal;
+      font-size: 11px;
+      color: #f06666;
+      margin-top: 10px;
+    }
+  }

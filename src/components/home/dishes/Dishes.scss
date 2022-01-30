@@ -1,0 +1,101 @@
+.Dishes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  
+    @media screen and (max-width: 1050px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      margin-bottom: 50px;
+    }
+  }
+  
+  .Dish {
+    position: relative;
+    max-width: 206px;
+    padding-top: 100px;
+  
+    &--active { 
+      .Dish__description {
+        background-color: #F2EEEE;
+      }
+  
+      .Dish__button {
+        background-color: transparent;
+  
+        &::before {
+          content: url("../../../assets/order/dishes/checked.svg");
+        }
+      }
+    }
+    
+    &__photo {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      z-index: 99;
+  
+      img {
+        max-width: 100%;
+      }
+    }
+
+    &__icon {
+      position: absolute;
+      right: 0;
+      top: 20px;
+      max-width: 20px;
+    }
+  
+    &__description {
+      position: relative;
+      padding: 54px 55px 12px 27px;
+      border: 1px solid #F2EEEE;
+      border-radius: 30px;
+    }
+  
+    &__title {
+      font-weight: 800;
+      font-size: 12px;
+      line-height: 13px;
+    }
+  
+    &__text {
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 18px;
+      color: #898686;
+      margin: 8px 0 10px;
+    }
+  
+    &__price {
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  
+    &__button {
+      position: absolute;
+      right: 12px;
+      bottom: 12px;
+  
+      width: 32px;
+      height: 32px;
+      background-color: #000000;
+      color: #fff;
+      border-radius: 50%;
+      border: 2px solid #000000;
+      cursor: pointer;
+  
+      &::before{
+        position: absolute;
+        content: "+";
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }

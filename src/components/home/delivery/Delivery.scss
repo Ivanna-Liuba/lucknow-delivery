@@ -1,0 +1,35 @@
+.Delivery {
+    position: relative;
+    width: 184px;
+    background-color: #fff;
+    padding: 88px 12px 10px 28px;
+    margin-top: 125px;
+    border-radius: 25px;
+  
+    &__icon {
+      position: absolute;
+      left: 0;
+      bottom: 50px;
+    }
+  
+    &__title {
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 12px;
+    }
+  
+    &__link {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 11px;
+      text-decoration: none;
+      color: #000;
+  
+      p {
+        flex: 1;
+      }
+    }
+  }

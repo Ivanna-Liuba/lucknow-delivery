@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  background-color: #DEEBFB;
+}
+
+.Modal {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+  &__inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 99;
+
+    .Title {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .Modal__title {
+      position: relative;
+      max-width: 320px;
+      height: 130px;
+      margin: 0 auto;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 65px;
+      text-align: center;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translateX(50%)
+      }
+    }
+  
+    .Modal__block {
+      position: relative;
+      background-color: #FFFFFF;
+      padding: 75px 55px 55px;
+      border-radius: 35px;
+      margin-top: 17px;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+
+    &--top {
+      top: 0;
+    }
+
+    &--bottom {
+      bottom: 0;
+    }
+    
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+  }
+}
+
+.link {
+  display: block;
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Home {
+  position: relative;
+  padding: 53px 63px 53px 35px;
+  display: flex;
+}
+
+.Aside {
+}
+
+.under-construction {
+  position: relative;
+  flex: 1;
+  border-radius: 15px;
+  margin-left: 30px;
+  padding: 50px 60px 23px;
+  background-color: #fff;
+
+  h2 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+.Order {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 30px 0 15px;
+      font-weight: 800;
+      font-size: 30px;
+      line-height: 34px;
+    }
+  
+    &__info {
+      overflow-y: auto;
+      flex: 1;
+    }
+}

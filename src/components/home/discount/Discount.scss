@@ -1,0 +1,30 @@
+.Discount {
+    position: relative;
+    max-width: 260px;
+    height: 158px;
+    background-color: #AB97F3;
+    color: #fff;
+    border-radius: 30px;
+    padding: 77px 22px 30px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  
+    &__title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 27px;
+      margin-bottom: 7px;
+    }
+  
+    &__image {
+      position: absolute;
+      left: 14%;
+      bottom: 3%;
+      width: 125%;
+    }
+  }
