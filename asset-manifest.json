@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lucknow-delivery/static/css/main.1aa47c8e.css",
-    "main.js": "/lucknow-delivery/static/js/main.06358dca.js",
+    "main.js": "/lucknow-delivery/static/js/main.ab486c5a.js",
     "static/media/avatar_2.svg": "/lucknow-delivery/static/media/avatar_2.57d9ae18fa43070ccda94b92c7f08e5b.svg",
     "static/media/avatar_1.svg": "/lucknow-delivery/static/media/avatar_1.c8bbbc6b33aacde025e116f96b0dff2f.svg",
     "static/media/avatar_3.svg": "/lucknow-delivery/static/media/avatar_3.2ffac9e176384e7f423ec06a6840e949.svg",
@@ -38,10 +38,10 @@
     "static/media/checked.svg": "/lucknow-delivery/static/media/checked.2e5b71c20ff98d0cdf56.svg",
     "static/media/filter.svg": "/lucknow-delivery/static/media/filter.74289f17e0e446e146651dc54ff89813.svg",
     "main.1aa47c8e.css.map": "/lucknow-delivery/static/css/main.1aa47c8e.css.map",
-    "main.06358dca.js.map": "/lucknow-delivery/static/js/main.06358dca.js.map"
+    "main.ab486c5a.js.map": "/lucknow-delivery/static/js/main.ab486c5a.js.map"
   },
   "entrypoints": [
     "static/css/main.1aa47c8e.css",
-    "static/js/main.06358dca.js"
+    "static/js/main.ab486c5a.js"
   ]
 }
