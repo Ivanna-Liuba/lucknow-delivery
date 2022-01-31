@@ -2,7 +2,6 @@ import { OrderContextProvider } from "./context/OrderContextProvider"
 
 import { AppRouter } from "./routes/AppRouter"
 
-import { Loader } from "./components/home/loader/Loader"
 
 
 function App() {
@@ -14,6 +13,3 @@ function App() {
 }
 
 export default App;
-
-//
-//<Loader />

@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom"
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom"
 import { OrderContext } from "../context/OrderContextProvider"
 
 import { Home } from "../pages/home/Home"
