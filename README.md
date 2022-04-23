@@ -2,9 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Hosting
+Hosted on the link https://ivanna-liuba.github.io/lucknow-delivery/#/auth
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+yarn install
+
+yarn start
 
 ### `npm start`
 
